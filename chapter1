@@ -1,0 +1,19 @@
+function startLevel(map) {
+    map.displayChapter('Chapter 1\nBreakout');
+
+    map.placePlayer(7, 5);
+
+    //just erase everithing.
+
+    map.placeObject(15, 12, 'computer');
+
+    map.placeObject(map.getWidth()-7, map.getHeight()-5, 'exit');
+}
+
+function onExit(map) {
+    if (!map.getPlayer().hasItem('computer')) {
+        map.writeStatus("Don't forget to pick up the computer!");
+        return false;
+    } else {
+        return true;
+    }
