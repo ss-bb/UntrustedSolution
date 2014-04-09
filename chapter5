@@ -1,0 +1,30 @@
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function startLevel(map) {
+    for (x = 0; x < map.getWidth(); x++) {
+        for (y = 0; y < map.getHeight(); y++) {
+            map.setSquareColor(x, y, '#f00');
+        }
+    }
+
+    map.placePlayer(map.getWidth() - 5, 5);
+
+    for (var i = 0; i < 75; i++) {
+        var x = getRandomInt(0, map.getWidth() - 1);
+        var y = getRandomInt(0, map.getHeight() - 1);
+        if (x != 2 || y != map.getHeight() - 1) {
+            // don't place mine over exit!
+            map.placeObject(x, y, 'mine', '#f00');
+            map.setSquareColor(x,y,'#00f'); // plz, take care of your eyes. This one will really hurt you.
+        }
+    }
+
+    map.placeObject(2, map.getHeight() - 1, 'exit');
+}
+
+function validateLevel(map) {
+    map.validateAtLeastXObjects(40, 'mine');
+    map.validateExactlyXManyObjects(1, 'exit');
+}
