@@ -46,7 +46,12 @@ function startLevel(map) {
     
     for(var i=0;i<map.getWidth()-5 ; i++)
    	 map.placeObject(i,11,'block'); // not so clever , stupid IA .
+   	 
+   	// if you are player, you can also just put 
+   	 map.placeObject(30, 11, 'block');
+    //then go right->->->->->->then bot then you arrive.
     
+    //this IA isn't an Ia for real :)
 
 
 }
