@@ -1,0 +1,21 @@
+map.defineObject('robot', {
+        'type': 'dynamic',
+        'symbol': 'R',
+        'color': 'gray',
+        'onCollision': function (player, me) {
+            me.giveItemTo(player, 'redKey');
+        },
+        'behavior': function (me) {
+            // Available commands: me.move(direction)
+            //                 and me.canMove(direction)
+            
+            // mhhhh, it's me ,or they just give the solution ... ? 
+            
+            
+            if(me.canMove('right'))
+            	me.move('right');
+            me.move('down');
+            
+            
+        }
+    });
