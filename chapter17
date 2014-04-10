@@ -1,0 +1,8 @@
+//mhh , don't do like me , don't try to add teleporter with 
+//map.placeObject(5,5,teleporter);
+//map.placeObject(map.getType('exit').getX() .........
+//it made firefox crash. so , just use the "expected" solution.
+
+
+
+//solution tomorow.
