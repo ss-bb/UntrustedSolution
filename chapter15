@@ -1,0 +1,38 @@
+mhh. the name of the js file is interesting. 
+
+function startLevel(map) {
+    map.displayChapter('Chapter 3\nBetrayal');
+
+    map.placePlayer(0, 0);
+
+    // yoink!
+    map.getPlayer().removeItem('theAlgorithm');
+
+    map.defineObject('water', {
+        'symbol': '░',
+        'color': '#44f',
+        'onCollision': function (player) {
+            player.killedBy();alert('YOLO , ITS SO SWAG');
+        }
+    });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //or you can just put player.killedBy(BaguetteDomination);
