@@ -1,0 +1,20 @@
+//trust in me. i'm a IA expert.
+
+//PRO TIP : ctrl+ 5 refresh the grid
+//PRO TIP 2 : just press RRRRRRRRRRRRRRR and wait.
+
+var ifeellucky = map.getRandomInt(0,3);
+    
+if(ifeellucky == '1')
+	me.move('right');
+if(ifeellucky == '2')
+	me.move('down');
+else
+ 	me.move('up')//cause im to busy to thinq to put some else.
+     	
+//you want a joke , it must refresh the page 5 time before this things work. LOL.
+
+//i look at the "real" solution . it's clever, but currently, it take me 1 minute to write this and 3 minute for it to work. :)
+// well , i feel sad whenever, but dumb badass win :).
+     	
+     	
