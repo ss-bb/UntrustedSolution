@@ -1,0 +1,33 @@
+// it's interesting. 
+
+// just a question , WHY would i fuckbrain myself when an 10 yo child can find the solution ?
+//so
+
+
+function startLevel(map) {
+    // Hint: you can press R or 5 to "rest" and not move the
+    // player, while the robot moves around.
+
+    map.placePlayer(0, map.getHeight() - 1);
+    var player = map.getPlayer();
+
+    map.defineObject('robot', {
+        'type': 'dynamic',
+        'symbol': 'R',
+        'color': 'gray',
+        'onCollision': function (player, me) {
+            me.giveItemTo(player, 'greenKey');
+        },
+        'behavior': function (me) {
+        if(me.getY() <=4 && me.getX() == 1)
+			  	  me.move('down');
+        if(me.getY() == 5 && me.getX() <20)
+          	me.move('right');
+        if(me.getX() == 20 && me.getY()>3)
+          	me.move('up');
+        if(me.getY() == 3 && me.canMove('right'))
+          	me.move('right');
+        else
+          	me.move('down');
+        }
+    }); // kid are so clever. What, this make you sad? mhhh, will thinq abaout it...later.
