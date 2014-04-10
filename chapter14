@@ -1,0 +1,7 @@
+// this one is more "complicated"
+
+//i was going to remove my computer from my inventory because : "i have nothing in my *** inventory in twice , 
+// in fact, i have just nothing in this inventory , it's just like.... empty... O.o , wait . :)"
+
+if (player.hasItem('greenKey')) {
+  player.removeItem('empty');
