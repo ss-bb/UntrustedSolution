@@ -31,8 +31,4 @@ function startLevel(map) {
     
     
     
-    
-    
-    
-    
     //or you can just put player.killedBy(BaguetteDomination);
