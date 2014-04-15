@@ -1,0 +1,27 @@
+//THIS ONE IS SO FUN , I JUST MAKE THIS LEVEL 5 time now.
+
+
+//AAAA finally, WE HAVE A REAL GAME !!!!!!
+
+//sorry  , was really super fun , 
+
+
+
+map.defineObject('bullet2', {
+        'type': 'dynamic',
+        'symbol': '.',
+        'color': 'green',
+        'interval': 100,
+        'projectile': true,
+        'behavior': function (me) {
+            me.move('up');
+        }
+    });
+    
+map.placeObject(25, map.getHeight() - 3, 'block');
+
+
+map.getPlayer().setPhoneCallback(function () {
+// why getY() -2 ? cause like that, you can shot even if you are behind block :)
+map.placeObject(map.getPlayer().getX(), map.getPlayer().getY() - 2, 'bullet2');
+});
