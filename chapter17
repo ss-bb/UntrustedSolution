@@ -1,8 +1,29 @@
 //mhh , don't do like me , don't try to add teleporter with 
 //map.placeObject(5,5,teleporter);
-//map.placeObject(map.getType('exit').getX() .........
+//map.placeObject(map.getType('exit').getX()-1, .........,'teleporter');
 //it made firefox crash. so , just use the "expected" solution.
-
+//if somebody do it : i wonder if we cann't for real, i may just be bad.
 
 
 //solution tomorow.
+//we are tomorow (and even more)
+
+
+ // fiou, poor brain , this was quite hard to found a way
+ // i fell lucky they keep some tmp solution from the last chapter , it give me the solution
+ 
+ //you may not be able to win it for the first time, even with this solution 
+ // why ? because it's all random. even programmer don't know if their will be a right way
+ 
+ 
+ // dont forget this if , or you will suffer :)
+ if( t1.getType() == 'teleporter' && t2.getType() =='teleporter'){ 
+        var ctx = map.getCanvasContext();
+        ctx.beginPath();
+        ctx.strokeStyle = 'white';
+        ctx.lineWidth = 1; // because 5 if to muche
+        ctx.moveTo(map.getCanvasCoords(t1).x, map.getCanvasCoords(t1).y);
+        ctx.lineTo(map.getCanvasCoords(t2).x, map.getCanvasCoords(t2).y);
+        ctx.stroke();
+}
+        
