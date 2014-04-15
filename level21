@@ -1,0 +1,35 @@
+// hey CONGRAT, YOU HERE TWO . 
+
+// well,  look's like the game is over , i will just kill this boss again :)
+
+
+//wait, why is there an other level after.
+
+
+
+// my brain hurt as hell , but i still can't find any way to change code . mhhh , trying to do all the level again ... anything which coud help
+
+
+// hey , i found a trick, there is a script folder in the menu when you want to change level.
+// DEAR AWESOME , I CAN MOVE THE WHOLE GAME. YEAR BABY.
+
+
+
+//mhhh , well , the problem come from map.finalLevel = true
+//let's take a look to map.
+
+//1 hour , 3 drink , a rest , and 1 mg of dolipran after....
+//ok , it musn't come from here. WTF? 
+
+//player.js is boring ...
+//object.js ummmm, this exit object 
+
+//WTF onColission ?
+//ARF . I feel SO STUPID ! 
+// just remove this fu
+if (!game.map.finalLevel) {
+            }
+            
+i want to moveToNextLevel();
+
+//HERE WE ARE
