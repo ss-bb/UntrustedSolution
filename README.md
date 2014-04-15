@@ -1,7 +1,17 @@
 UntrustedSolution
 =================
 
-Untrusted :=>http://alexnisnevich.github.io/untrusted/
+Untrusted :=>http://alexnisnevich.github.io/untrusted/ dev by alex & greg
 
-un jeu + du code javascript ====> COOL !!!!
+Hi.
+Here are MY solution of untrusted, they may not be the best , but i like all of them (instead level 13 where i give 2 solution.)
+
+Please, try to resolve this by yourself before look some solutions here. There are many way to solve exposed problems.
+
+
+a game + Javascript Code =====> COOL.
+
+
+
+
 
