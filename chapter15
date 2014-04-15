@@ -12,23 +12,6 @@ function startLevel(map) {
         'symbol': '░',
         'color': '#44f',
         'onCollision': function (player) {
-            player.killedBy();alert('YOLO , ITS SO SWAG');
+            player.killedBy(BaguetteDomination);
         }
     });
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    //or you can just put player.killedBy(BaguetteDomination);
