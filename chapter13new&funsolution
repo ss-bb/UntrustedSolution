@@ -1,0 +1,32 @@
+//just to say , this is not THE solution, it's not even a solution a copy paste from the void. 
+
+// i had just a feeling it coud work , and it do :).
+
+
+//remember, we can all access to "map".
+//remember , we are in javascript, we can add "attribut" to any 
+//"object" we want, (i put "" for real dev which may insult me xD )
+//so i can add any attribut i cant to map.
+
+var i = map.i;
+if(typeof(i) === 'undefined'){
+    map.i=new Date();
+    map.direction = 'right';
+}
+
+//define the phone function
+map.getPlayer().setPhoneCallback(function (){
+if(map.direction == 'right')
+	map.direction = 'down';
+else if(map.direction == 'down')
+	map.direction = 'left';
+else if(map.direction == 'left')
+  map.direction = 'up';
+else if(map.direction == 'up')
+  map.direction = 'right'; 
+//alert("new direction : "+map.direction);
+//people who haven't understand the goal of this , just press Q :)
+});
+
+//just choose with you phone where you wanna go
+me.move(map.direction);
