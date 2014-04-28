@@ -23,9 +23,14 @@ function startLevel(map) {
     map.placeObject(map.getWidth()-5, map.getHeight()-5, 'block');
     map.placeObject(map.getWidth()-5, map.getHeight()-3, 'block');
     
-	map.placeObject(7,5,'exit'); // mhhh, easy ,  i will overwrite  myself as an exit :)
-	
-	//obiously, it don't, but now just move, you were hiding an exit O.o ....
+		<SOLUTION>
+	    
+	    
+		map.placeObject(7,5,'exit'); // mhhh, easy ,  i will overwrite  myself as an exit :)
+		
+		//obiously, it don't, but now just move, you were hiding an exit O.o ....
+		
+		<SOLUTION>
     
     map.placeObject(map.getWidth()-5, map.getHeight()-4, 'exit');
 }
