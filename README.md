@@ -14,4 +14,4 @@ a game + Javascript Code =====> COOL.
 
 
 
-
+well , i just take a look to my own solution, it was not very easy to understand which peace of code was the solution, i will just make it smarter
