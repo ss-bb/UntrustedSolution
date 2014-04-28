@@ -2,8 +2,12 @@ function startLevel(map) {
     map.displayChapter('Chapter 1\nBreakout');
 
     map.placePlayer(7, 5);
-
+    
+    <SOLUTION>
+    
     //just erase everithing.
+
+    <SOLUTION>
 
     map.placeObject(15, 12, 'computer');
 
