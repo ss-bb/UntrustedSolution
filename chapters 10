@@ -52,10 +52,10 @@
             	me.move('right');
         else
             	me.move('down');
-        }
         
         <SOLUTION>
         
+        }
     });
     
 // Easy to Dodge , bro
