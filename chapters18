@@ -1,7 +1,13 @@
-//mhhhhh, i thinq it wasn't the solution they expected
+//mhhhhh, i thinq it wasn't the solution they expected but I found it so funny
+
+<SOLUTION>
 
 function jump() {
+
 map.placeObject(map.getPlayer().getX()+1,map.getPlayer().getY()+1,'computer');
-//care, it take all the place you have, don't had space or so.
-//just press Q as much time as you want :).
+
 }
+
+<SOLUTION>
+
+//just press Q as much time as you need :).
