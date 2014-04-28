@@ -11,11 +11,15 @@ map.defineObject('robot', {
             
             // mhhhh, it's me ,or they just give the solution ... ? 
             
+            <SOLUTION>
             
             if(me.canMove('right'))
             	me.move('right');
             me.move('down');
             
+            <SOLUTION>
+            
+            //Trust me , I'm an Expert :).
             
         }
     });
