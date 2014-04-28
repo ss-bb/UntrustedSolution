@@ -1,8 +1,9 @@
 //just to say . for real , the first time i do it, the laser was in each worner,
-//but no one at the middle so i rush the door without really understanding the goal.
+//but no one at the middle so i rush the door without really understanding the goal of this chapter.
 
-//when i did it again. i understand but i wonder which on in the worst,at the first time, it was to easy , at the second
-//they just thinqs we are stupid .... :s
+// I wonder which on in the worst : 
+//the first time : it's to easy 
+//the second time : they just thinqs we are stupid ...
 
 
  map.createLine([x1, y1], [x2, y2], function (player) {
@@ -34,19 +35,22 @@
         var color = colors[i % 3];
         createLaser(startX, startY, angle, length, color);
     }
+    
+    <SOLUTION>
 
-//mhh , let me guesse , i will take the chapter 7 solution and it will work.... O dear , so sad.
-var i = 0;
-player.setPhoneCallback(function () {
-i++;
-if(i%3 == 0)
-player.setColor(colors[1]);
-if(i%3 == 1)
-player.setColor(colors[0]);
-if(i%3 == 2)
-player.setColor(colors[2]);
-//no more blue lulz :s. sorry
-});
+    //mhh , let me guesse , i will take the chapter 7 solution and it will work.... O dear , so sad.
+    var i = 0;
+    player.setPhoneCallback(function () {
+      i++;
+      if(i%3 == 0)
+      player.setColor(colors[1]);
+      if(i%3 == 1)
+      player.setColor(colors[0]);
+      if(i%3 == 2)
+      player.setColor(colors[2]);
+    });
+    
+    <SOLUTION>
 
 
 
