@@ -1,7 +1,7 @@
 //just to say . for real , the first time i do it, the laser was in each worner,
 //but no one at the middle so i rush the door without really understanding the goal of this chapter.
 
-// I wonder which on in the worst : 
+// I wonder which one is the worst : 
 //the first time : it's to easy 
 //the second time : they just thinqs we are stupid ...
 
@@ -15,8 +15,14 @@
         // using canvas to draw the line
         var ctx = map.getCanvasContext();
         ctx.beginPath();
-        ctx.strokeStyle = color; // look guy, some color wouaaaaaa
-        ctx.lineWidth = 2;
+        
+             <SOLUTION>
+             
+             ctx.strokeStyle = color; // look guy, some color wouaaaaaa
+             ctx.lineWidth = 2;
+             
+             <SOLUTION>
+             
         ctx.moveTo(x1, y1);
         ctx.lineTo(x2, y2);
         ctx.stroke();
