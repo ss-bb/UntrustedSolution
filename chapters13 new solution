@@ -1,12 +1,5 @@
-//just to say , this is not THE solution, it's not even a solution a copy paste from the void. 
 
-// i had just a feeling it coud work , and it do :).
-
-
-//remember, we can all access to "map".
-//remember , we are in javascript, we can add "attribut" to any 
-//"object" we want, (i put "" for real dev which may insult me xD )
-//so i can add any attribut i cant to map.
+<SOLUTION>
 
 var i = map.i;
 if(typeof(i) === 'undefined'){
@@ -23,10 +16,15 @@ else if(map.direction == 'down')
 else if(map.direction == 'left')
   map.direction = 'up';
 else if(map.direction == 'up')
-  map.direction = 'right'; 
-//alert("new direction : "+map.direction);
-//people who haven't understand the goal of this , just press Q :)
+  map.direction = 'right';
+  
+//people who haven't understand the goal of this , just press Q & R :)
 });
 
 //just choose with you phone where you wanna go
 me.move(map.direction);
+
+<SOLUTION>
+
+//i'm trying to make some contribution to Untrusted & i see some other people solution.
+//I found a clever , make the robot moving in the same direction than the player :) . 
