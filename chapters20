@@ -2,6 +2,8 @@
 
 //AAAA finally, WE HAVE A REAL GAME !!!!!!
 
+//the seconde solution is easier, but so funny. music will rule the world. i wonder if they thinq about it :)
+
 <SOLUTION>
 
 map.defineObject('bullet2', {
@@ -28,3 +30,29 @@ map.placeObject(map.getPlayer().getX(), map.getPlayer().getY() - 2, 'bullet2');
 <SOLUTION>
 
 An other funky solution . You can just hide yourself and make a bulletrain :) trying currently.
+
+<SOLUTION>
+
+map.defineObject('MUSIC', {
+        'type': 'dynamic',
+        'symbol': '♫',
+        'color': 'green',
+        'interval': 100,
+        'projectile': true,
+        'behavior': function (me) {
+            me.move('up');
+        }
+    });
+    
+map.placeObject(25, map.getHeight() - 3, 'block'); // hide ourself
+
+map.getPlayer().setPhoneCallback(function () {
+
+for(var i=0; i<map.getWidth(); i++)
+
+	map.placeObject(i, map.getHeight()-5, 'MUSIC'); // MUSIC POWEERRRR
+    
+    
+});
+
+<SOLUTION>
