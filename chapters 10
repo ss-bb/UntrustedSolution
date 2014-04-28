@@ -8,10 +8,15 @@
             player.killedBy('an attack drone');
         },
         'behavior': function (me) {
+        
+            <SOLUTION>
+            
             if(me.getX() >= 20 || me.getY() >= 13)
             	me.move('left');
             else
             	me.move('down');
+            	
+            <SOLUTION>
         }
     });
 
@@ -23,7 +28,12 @@
             player.killedBy('a reinforcement drone');
         },
         'behavior': function (me) {
+        
+            <SOLUTION>
+        
             me.move('down');
+            
+            <SOLUTION>
         }
     });
 
@@ -35,11 +45,18 @@
             player.killedBy('a defense drone');
         },
         'behavior': function (me) {
-        	if(me.getX() <= 20 || me.getY() >= 13)
+        
+        <SOLUTION>
+        
+        if(me.getX() <= 20 || me.getY() >= 13)
             	me.move('right');
-            else
+        else
             	me.move('down');
         }
+        
+        <SOLUTION>
+        
     });
     
 // Easy to Dodge , bro
+// 28/04 comment. This code is not very smart.
