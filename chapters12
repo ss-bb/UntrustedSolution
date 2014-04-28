@@ -33,9 +33,11 @@ function startLevel(map) {
           	me.move('right');
         else
           	me.move('down');
-        }
+
         
         <SOLUTION>
+        
+       }
     }); 
     
     //bizu are so clever. What, this make you sad? mhhh, will thinq abaout it...later.
