@@ -82,8 +82,12 @@ function startLevel(map) {
     functionList['fortresses']();
     functionList['fortresses']();
     
-    //well , you really don't need any help for this. it's all in the text, and whenever , you won't use those trash movePlayer function? :)
-    map.getPlayer().setPhoneCallback(functionList["generateForest"]);
+            <SOLUTION>
+    
+            //well , you really don't need any help for this. it's all in the text, and whenever , you won't use those trash movePlayer function? :)
+            map.getPlayer().setPhoneCallback(functionList["generateForest"]);
+    
+            <SOLUTION>
 
     map.placeObject(map.getWidth()-1, map.getHeight()-1, 'exit');
 }
