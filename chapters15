@@ -1,4 +1,4 @@
-mhh. the name of the js file is interesting. 
+//mhh. the name of the js file is interesting. 
 
 function startLevel(map) {
     map.displayChapter('Chapter 3\nBetrayal');
@@ -12,6 +12,11 @@ function startLevel(map) {
         'symbol': '░',
         'color': '#44f',
         'onCollision': function (player) {
-            player.killedBy(BaguetteDomination);
+        
+            <SOLUTION>
+            
+            player.killedBy(BaguetteDomination); // or whatever undefined :)
+            
+            <SOLUTION>
         }
     });
