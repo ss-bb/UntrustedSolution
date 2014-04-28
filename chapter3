@@ -3,7 +3,12 @@ function startLevel(map) {
     
     for (y = 10; y <= map.getHeight() - 3; y++) {
         map.placeObject(5, y, 'block');
-        map.placeObject(map.getWidth() - 3, y, 'block'); // UUSHH , i just push this wall , np
+        
+                <SOLUTION>
+                
+                map.placeObject(map.getWidth() - 3, y, 'block'); // UUSHH , i just push this wall , np
+                
+                <SOLUTION>
     }
     
     for (x = 5; x <= map.getWidth() - 5; x++) {
