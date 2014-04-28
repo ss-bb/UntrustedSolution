@@ -7,8 +7,12 @@ function startLevel(map) {
         map.placeObject(map.getWidth() - 3, y, 'block');
     }
     
-    //i ever use this cheat for chapter 2 , we coud even use it for chapter 1,2,3 , i feel sad.
-    map.placeObject(map.getWidth()-6, map.getHeight()-4 , 'exit');
+            <SOLUTION>
+            
+            //i ever use this cheat for chapter 2, i feel sad.
+            map.placeObject(map.getWidth()-6, map.getHeight()-4 , 'exit');
+            
+            <SOLUTION>
     
     for (x = 7; x <= map.getWidth() - 3; x++) {
         map.placeObject(x, 7, 'block');
