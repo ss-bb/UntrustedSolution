@@ -9,17 +9,22 @@ map.placeObject(5, 12, 'phone');
 // The function phone callback is bound to Q or Ctrl-6.
 player.setPhoneCallback(function () {
 
-// ok,ok, last chapter was sad , i will protect your eyes... as far as i can.
-if(map.getPlayer().getColor() == '#00f')
-map.getPlayer().setColor('#0f0');
-else if(map.getPlayer().getColor() == '#0f0')
-map.getPlayer().setColor('#f00');
-else if(map.getPlayer().getColor() == '#f00')
-map.getPlayer().setColor('#ff0');
-else if(map.getPlayer().getColor() == '#ff0')
-map.getPlayer().setColor('#00f');// for the lulz
- 
- 
+   <SOLUTION>
+   
+   // ok,ok, last chapter was sad , i will protect your eyes... as far as i can.
+   
+   if(map.getPlayer().getColor() == '#00f')
+   map.getPlayer().setColor('#0f0');
+   else if(map.getPlayer().getColor() == '#0f0')
+   map.getPlayer().setColor('#f00');
+   else if(map.getPlayer().getColor() == '#f00')
+   map.getPlayer().setColor('#ff0');
+   else if(map.getPlayer().getColor() == '#ff0')
+   map.getPlayer().setColor('#00f');// for the lulz
+   
+   //wow. 28/04 currently, Do i really write this cheat ? :s  . I will edit with a smarter solution asap
+    
+   <SOLUTION> 
 });
  
  
