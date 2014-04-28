@@ -17,7 +17,12 @@ function startLevel(map) {
         if (x != 2 || y != map.getHeight() - 1) {
             // don't place mine over exit!
             map.placeObject(x, y, 'mine', '#f00');
-            map.setSquareColor(x,y,'#00f'); // plz, take care of your eyes. This one will really hurt you.
+            
+                    <SOLUTION>
+                    
+                    map.setSquareColor(x,y,'#9f3'); // plz, take care of your eyes. This one will really hurt you.
+                    
+                    <SOLUTION>
         }
     }
 
