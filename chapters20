@@ -1,11 +1,8 @@
 //THIS ONE IS SO FUN , I JUST MAKE THIS LEVEL 5 time now.
 
-
 //AAAA finally, WE HAVE A REAL GAME !!!!!!
 
-//sorry  , was really super fun , 
-
-
+<SOLUTION>
 
 map.defineObject('bullet2', {
         'type': 'dynamic',
@@ -18,10 +15,16 @@ map.defineObject('bullet2', {
         }
     });
     
-map.placeObject(25, map.getHeight() - 3, 'block');
+map.placeObject(25, map.getHeight() - 3, 'block'); // hide ourself
 
 
 map.getPlayer().setPhoneCallback(function () {
-// why getY() -2 ? cause like that, you can shot even if you are behind block :)
+
 map.placeObject(map.getPlayer().getX(), map.getPlayer().getY() - 2, 'bullet2');
 });
+
+// why getY() -2 ? cause like that, you can shot even if you are behind block :)
+
+<SOLUTION>
+
+An other funky solution . You can just hide yourself and make a bulletrain :) trying currently.
