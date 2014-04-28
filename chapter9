@@ -33,15 +33,19 @@ function startLevel(map) {
     map.placeObject(1, 1, 'block');
     map.placeObject(0, 3, 'block');
     map.placeObject(1, 3, 'block');
+    
+    	<SOLUTION>
 
  	var functionList = {};
     
-    functionList['WAZAAA'] = function(){ 
-    	raftDirection ='up';
-    }
+	functionList['WAZAAA'] = function(){ 
+		raftDirection ='up';
+	}
     
 	map.getPlayer().setPhoneCallback(functionList["WAZAAA"]);
 	// Stop calling Mr president , plz.
+	
+	<SOLUTION>
 }
 
 function validateLevel(map) {
