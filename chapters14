@@ -1,7 +1,20 @@
 // this one is more "complicated"
 
-//i was going to remove my computer from my inventory because : "i have nothing in my *** inventory in twice , 
+//i was going to remove my computer from my inventory instead of greenKey 
+//when i realise that i have nothing in twice in my inventory, 
 // in fact, i have just nothing in this inventory , it's just like.... empty... O.o , wait . :)"
+
+
+<SOLUTION>
 
 if (player.hasItem('greenKey')) {
   player.removeItem('empty');
+  
+<SOLUTION>
+
+
+
+SPOIL 
+DO NOT READ UNTIL YOU HAVEN'T FINISH THE GAME
+
+well , according to the object.js. i supose there where nothing else to remove ?
