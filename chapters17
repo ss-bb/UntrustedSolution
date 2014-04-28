@@ -10,6 +10,7 @@
 //well , it's random flushing so there is no way to know is there will be a reachable path 
 // remember to refresh if there is no way
 
+<SOLUTION>
  
 // dont forget this if , or you will suffer :)
 if( t1.getType() == 'teleporter' && t2.getType() =='teleporter'){ 
@@ -22,4 +23,5 @@ if( t1.getType() == 'teleporter' && t2.getType() =='teleporter'){
         ctx.stroke();
 }
 
+<SOLUTION>
         
