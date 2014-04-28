@@ -1,7 +1,7 @@
 UntrustedSolution
 =================
 
-Untrusted :=>http://alexnisnevich.github.io/untrusted/ dev by alex & greg
+Solution of Untrusted :=>http://alexnisnevich.github.io/untrusted/ dev by alex & greg
 
 Hi.
 Here are MY solution of untrusted, they may not be the best , but i like all of them (instead level 13 where i give 2 solution.)
