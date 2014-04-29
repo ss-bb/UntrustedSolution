@@ -20,7 +20,7 @@ function startLevel(map) {
         },
         'behavior': function (me) {
         
-        <SOLUTION>
+        < SADEST SOLUTION>
         
         
         if(me.getY() <=4 && me.getX() == 1)
@@ -35,7 +35,23 @@ function startLevel(map) {
           	me.move('down');
 
         
+        < SADEST SOLUTION>
+        
+        
         <SOLUTION>
+        
+        var i = map.getPlayer().getX();
+         if(i%4 == 0)
+         	me.move('up');
+         if(i%4 == 1)
+         	me.move('right');
+         if(i%4 == 2)
+         	me.move('down');
+         if(i%4 == 3)
+         	me.move('left');
+         	
+       <SOLUTION>
+        
         
        }
     }); 
