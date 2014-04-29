@@ -11,10 +11,9 @@
         
             <SOLUTION>
             
-            if(me.getX() >= 20 || me.getY() >= 13)
-            	me.move('left');
-            else
-            	me.move('down');
+            if(me.canMove('up'))
+             me.move('up');
+            me.move('left');
             	
             <SOLUTION>
         }
@@ -48,10 +47,9 @@
         
         <SOLUTION>
         
-        if(me.getX() <= 20 || me.getY() >= 13)
-            	me.move('right');
-        else
-            	me.move('down');
+        if(me.canMove('up'))
+             me.move('up');
+            me.move('right');
         
         <SOLUTION>
         
@@ -60,3 +58,4 @@
     
 // Easy to Dodge , bro
 // 28/04 comment. This code is not very smart.
+// 29/04 edit solution thinqs to other level
