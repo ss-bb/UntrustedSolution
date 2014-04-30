@@ -4,14 +4,10 @@ UntrustedSolution
 Solution of Untrusted :=>http://alexnisnevich.github.io/untrusted/ dev by alex & greg
 
 Hi.
-Here are MY solution of untrusted, they may not be the best , but i like all of them (instead level 13 where i give 2 solution.)
+Here are my solution of untrusted, they may not be the best , but i like all of them.
 
 Please, try to resolve this by yourself before look some solutions here. There are many way to solve exposed problems.
-
+if you want more, go on http://alexnisnevich.github.io/untrusted/solution where the community give a lot of exemple
 
 a game + Javascript Code =====> COOL.
 
-
-
-
-well , i just take a look to my own solution, it was not very easy to understand which peace of code was the solution, i will just make it smarter
