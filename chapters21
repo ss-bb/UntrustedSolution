@@ -7,7 +7,8 @@
 
 
 
-// my brain hurt as hell , but i still can't find any way to change code . mhhh , trying to do all the level again ... anything which coud help
+// my brain hurt as hell , but i still can't find any way to change code . mhhh , trying to do all the level again
+//... anything which coud help
 
 
 // hey , i found a trick, there is a script folder in the menu when you want to change level.
@@ -18,7 +19,7 @@
 //mhhh , well , the problem come from map.finalLevel = true
 //let's take a look to map.
 
-//1 hour , 3 drink , a rest , and 1 mg of dolipran after....
+//1 hour , 3 drink , a rest , and many Paracetamol/doliprane/acetaminophen after....
 //ok , it musn't come from here. WTF? 
 
 //player.js is boring ...
