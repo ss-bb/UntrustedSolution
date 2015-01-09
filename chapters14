@@ -1,16 +1,31 @@
+// EDIT : for fun i tried to remake level with new solution. 
+
+// I just saw that the old one was not available any more. (they may have correct the remove empty from inventory xD )
+
+// well , an other solution which look like a SQL injection in real life.
+
+<SOLUTION>
+
+player.removeItem('  phone');map.placeObject(25,10,'phone   ');
+
+<SOLUTION>
+
+
 // this one is more "complicated"
 
 //i was going to remove my computer from my inventory instead of greenKey 
 //when i realise that i have nothing in twice in my inventory, 
 // in fact, i have just nothing in this inventory , it's just like.... empty... O.o , wait . :)"
 
-
+//may no work now. (may is a joke, it just don't )
 <SOLUTION>
 
 if (player.hasItem('greenKey')) {
   player.removeItem('empty');
   
 <SOLUTION>
+
+
 
 
 
