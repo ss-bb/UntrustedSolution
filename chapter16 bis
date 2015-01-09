@@ -1,0 +1,23 @@
+//New solution : fun !
+
+// in JS , if many function as the same prototype. The browser will use the last one declare.
+// Here , i write the createLaser function once again. but this one wont kill me if i touch them.
+(write this function AFTER the createLaser function , not in...) xD.
+ 
+ 
+ 
+function createLaser(centerX, centerY, angleInDegrees,length,color) {
+var angleInRadians = angleInDegrees * Math.PI / 180;
+var x1 = centerX - Math.cos(angleInRadians) * length / 2;
+var y1 = centerY + Math.sin(angleInRadians) * length / 2;
+var x2 = centerX + Math.cos(angleInRadians) * length / 2;
+var y2 = centerY - Math.sin(angleInRadians) * length / 2;
+ 
+// map.createLine() creates a line with an effect when
+// the player moves over it, but doesn't display it
+map.createLine([x1, y1], [x2, y2], function (player) {
+if (player.getColor() != color) {
+  var LOL = 'WHO DARE STOP ME , NOW?';
+}
+});
+} 
