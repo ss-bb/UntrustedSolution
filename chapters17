@@ -3,7 +3,7 @@
 //map.placeObject(map.getType('exit').getX()-1, .........,'teleporter');
 //it made firefox crash. if somebody want to do it : i may just be bad go try :).
 
-// ! you may not be able to win it for the first time,with this solution ! 
+// ! you may not be able to win it for the first time,with this solution (or use the NEW one :) ) ! 
 // ->(WHAT ? OMG YOU ARE JUST NO BRAIN ! FUCK HELL NOOB GO LEARN PROGRAMMING !)  
 
 
@@ -24,4 +24,25 @@ if( t1.getType() == 'teleporter' && t2.getType() =='teleporter'){
 }
 
 <SOLUTION>
+
+<NEW SOLUTION>
+// i just read my last solution : it's <random>. LOL ! NO MORE
+
+// TODO find a way to remove the API docs
+        // wouldn't want the 'good doctor' to find
+        // out about map.getCanvasCoords()...
+        
+    }
+    
+    function shuffle(o){ //v1.0 [http://bit.ly/1l6LGQT] OR NOT :)
+        var ret = []
+        ret.push(o[0]);
+        ret.push(o[178]);
+        return ret;
+    };
+  
+      for(var i=0;i<0;i++){
+        var test='lol';
+        
+ </NEW SOLUTION>
         
