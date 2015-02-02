@@ -10,4 +10,18 @@ map.placeObject(map.getPlayer().getX()+1,map.getPlayer().getY()+1,'computer');
 
 <SOLUTION>
 
+
 //just press Q as much time as you need :).
+
+
+<NEW SOLUTION>
+
+function jump() { 
+// why push q ? :)
+}
+
+function gravity(){
+  //no probleme HERE :)
+}
+
+</NEW solution >
