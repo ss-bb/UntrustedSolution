@@ -34,10 +34,10 @@ if( t1.getType() == 'teleporter' && t2.getType() =='teleporter'){
         
     }
     
-    function shuffle(o){ //v1.0 [http://bit.ly/1l6LGQT] OR NOT :)
+    function shuffle(o){ //v1.0 [http://bit.ly/1l6LGQT]
         var ret = []
         ret.push(o[0]);
-        ret.push(o[178]);
+        ret.push(o[o.length -2]);
         return ret;
     };
   
